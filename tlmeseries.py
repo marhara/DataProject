@@ -10,7 +10,9 @@ def plot_plt(df, x, y, title="", xlabel='Date', ylabel='Value', dpi=100):
     plt.figure(figsize=(20, 10), dpi=dpi)
     plt.plot(x, y, 'g^')
     plt.gca().set(title=title, xlabel=xlabel, ylabel=ylabel)
+    
     plt.show()
+
 
 
 plot_plt(df, x=df.index, y=df.value, title="My Tille")
