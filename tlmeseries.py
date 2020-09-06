@@ -9,6 +9,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/selva86/datasets/master/a10.
 def plot_plt(df, x, y, title="My Title", xlabel='Date', ylabel='Value', dpi=100):
     plt.figure(figsize=(20, 10), dpi=dpi)
     plt.plot(x, y, 'g^')
+    # kjhkjhhkjhjkh
     plt.gca().set(title=title, xlabel=xlabel, ylabel=ylabel)
     plt.show()
 
